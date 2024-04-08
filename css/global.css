@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--rose);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.text-code {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 100%;
+  color: var(--purple-dark);
+}
+
+.text-name {
+  font-size: 3.2rem;
+  font-family: 600;
+  font-family: "Crimson Pro", serif;
+  line-height: 100%;
+  color: var(--purple-dark);
+}
+
+.text-price {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 100%;
+  color: var(--purple-dark);
+}
+
+/* U */
+
+.content {
+  gap: 20px;
+}
+
+.text {
+  gap: 12px;
+}
+
+.product {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  left: 80%;
+  bottom: 90%;
+}
+
+@media (max-width: 1200px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
